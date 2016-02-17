@@ -10,3 +10,4 @@
 #import <UIKit/UIKit.h>
 
 #import "PMBaseCategoryHeader.h"
+#import "PMCommonMacro.h"

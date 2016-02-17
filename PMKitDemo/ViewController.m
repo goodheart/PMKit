@@ -17,10 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
-    self.view.backgroundColor = [UIColor pm_randomColor];
-    
+    UIView * subView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kPMScreenWidth, kPMScreenHeight)];
+    subView.backgroundColor = [UIColor pm_randomColor];
+    [self.view addSubview:subView];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

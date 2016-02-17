@@ -31,6 +31,7 @@
 		3654C7F41C7446530008701E /* UIColor+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Color.m"; sourceTree = "<group>"; };
 		3654C7F71C7446950008701E /* PMKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMKit.h; sourceTree = "<group>"; };
 		3654C7FA1C7446D80008701E /* PMBaseCategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMBaseCategoryHeader.h; sourceTree = "<group>"; };
+		3654C7FD1C744BE30008701E /* PMCommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCommonMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 				3654C7FB1C7447A50008701E /* UI */,
 				3654C7F21C7446420008701E /* BaseCategory */,
 				3654C7F71C7446950008701E /* PMKit.h */,
+				3654C7FD1C744BE30008701E /* PMCommonMacro.h */,
 			);
 			path = PMKit;
 			sourceTree = "<group>";
@@ -340,6 +342,7 @@
 				3654C7F01C7446170008701E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
